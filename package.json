@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm run test",
-    "test": "mocha test/*.js"
+    "X-prepublish": "npm run test",
+    "X-test": "mocha test/*.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "author": "David Jsa <david@jsa.me>",
   "license": "MIT",
   "devDependencies": {
-	"@babel/cli": "^7.11.6",
+    "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.11.5",
