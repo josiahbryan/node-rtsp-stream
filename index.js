@@ -1,1 +1,1 @@
-module.exports = require('./videoStream')
+module.exports = require('./videoStream');

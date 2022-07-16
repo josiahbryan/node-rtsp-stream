@@ -1,6 +1,15 @@
 node-rtsp-stream
 ================
 
+# Updated
+
+I've udpated this module with updated code styling thanks to eslint and now will add the option to ingest a pipe, not just a URL, as well as callbacks to authenticate WSS connections.
+- JB 20220705
+
+---
+
+## Original Readme
+
 Stream any RTSP stream and output to websocket for consumption by [jsmpeg](https://github.com/phoboslab/jsmpeg). HTML5 streaming video! (Requires ffmpeg)
 
 Usage:
